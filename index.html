@@ -35,7 +35,7 @@
       formData.append('file', file);
 
       try {
-        const response = await fetch('https://2a1e0b1a-b7d0-4fa2-a910-0592543a0593-00-2uaiqwka4e7hp.sisko.replit.dev/compress', {
+        const response = await fetch('/compress', {
           method: 'POST',
           body: formData
         });
